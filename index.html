@@ -1,26 +1,133 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guichet.ma</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
     <!--TailwindCSS CDN-->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!--Font Awesome CDN-->
-    <script src="https://kit.fontawesome.com/0eb25e2a76.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/0eb25e2a76.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <div>
-        <div></div>
-        <div></div>
+      <div class="">
+        <div class="grid grid-cols-3 p-4">
+          <div class="flex justify-start items-center gap-4">
+            <div class="flex flex-col gap-2 items-center mt-6">
+              <i class="fa-solid fa-bars fa-2xl"></i>
+              <p class="font-semibold">Menu</p>
+            </div>
+            <div>
+              <input type="search" placeholder="Cherchez ce que vous voulez" />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <div class="flex justify-center items-center">
+            <img alt="logo" src="./assets/logo.png" class="w-52" />
+          </div>
+          <div class="flex justify-end items-center gap-4">
+            <div class="flex flex-col items-center gap-2">
+              <img alt="logo2" src="./assets/logo-2.png" class="w-6" />
+              <p class="text-xs">Guichet Magazine</p>
+            </div>
+            <div class="flex flex-col gap-3 items-center mt-4">
+              <i class="fa-regular fa-circle-question fa-xl"></i>
+              <p class="text-xs">Qui sommes-nous?</p>
+            </div>
+            <button
+              class="border border-orange-600 px-4 py-2 text-orange-600 font-semibold"
+            >
+              <i class="fa-solid fa-bag-shopping"></i> Panier
+            </button>
+          </div>
+        </div>
+        <hr class="border border-1"/>
+        <div class="py-2 px-12">
+          <div>
+            <ul class="flex gap-6 py-4">
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-orange-600"
+                >
+                  Acceuil
+                </li></a
+              >
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-gray-700 active:text-orange-600"
+                >
+                  Concerts & Festivals
+                </li></a
+              >
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-gray-700 active:text-orange-600"
+                >
+                  Theatre & Humour
+                </li></a
+              >
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-gray-700 active:text-orange-600"
+                >
+                  Formations
+                </li></a
+              >
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-gray-700 active:text-orange-600"
+                >
+                  Famille & Loasirs
+                </li></a
+              >
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-gray-700 active:text-orange-600"
+                >
+                  Sport
+                </li></a
+              >
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-gray-700 active:text-orange-600"
+                >
+                  Cinema
+                </li></a
+              >
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-gray-700 active:text-orange-600"
+                >
+                  Voyage
+                </li></a
+              >
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-gray-700 active:text-orange-600"
+                >
+                  Vente Flash
+                </li></a
+              >
+              <a href="#"
+                ><li
+                  class="font-bold text-sm text-gray-700 active:text-orange-600"
+                >
+                  Festival "Layali Al Mawlid"
+                </li></a
+              >
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
-    <main>
-    </main>
+    <main></main>
     <footer></footer>
   </body>
 </html>
