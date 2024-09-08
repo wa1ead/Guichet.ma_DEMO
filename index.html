@@ -21,8 +21,8 @@
         <div class="grid grid-cols-3 p-4">
           <div class="flex justify-start items-center gap-4">
             <div class="flex flex-col gap-2 items-center mt-6">
-              <i class="fa-solid fa-bars fa-2xl"></i>
-              <p class="font-semibold">Menu</p>
+              <i class="fa-solid fa-bars fa-xl"></i>
+              <p class="font-semibold text-sm">Menu</p>
             </div>
             <div>
               <input type="search" placeholder="Cherchez ce que vous voulez" />
@@ -48,16 +48,12 @@
             </button>
           </div>
         </div>
-        <hr class="border border-1"/>
-        <div class="py-2 px-12">
+        <hr class="border border-1" />
+        <div class="px-12">
           <div>
-            <ul class="flex gap-6 py-4">
+            <ul class="flex gap-6 py-2 items-center">
               <a href="#"
-                ><li
-                  class="font-bold text-sm text-orange-600"
-                >
-                  Acceuil
-                </li></a
+                ><li class="font-bold text-sm text-orange-600">Acceuil</li></a
               >
               <a href="#"
                 ><li
@@ -122,12 +118,60 @@
                   Festival "Layali Al Mawlid"
                 </li></a
               >
+              <button
+                class="bg-orange-400 rounded p-3 text-sm font-bold text-white"
+              >
+                <li>Guichet Store</li>
+              </button>
             </ul>
           </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="bg-[url('./assets/bg-hero.png')] bg-center bg-cover w-full p-4">
+        <!-- Card Blog -->
+        <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+          <!-- Grid -->
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card -->
+            <a
+              class="group relative flex flex-col w-full min-h-80 bg-[url('https://cdn.guichet.com/events/hologram-doum-keltoum-en-live-performance-a-rabat-1.png?w=450&h=450&fit=crop&crop=entropy&auto=format,compress&q=80')] bg-center bg-cover"
+              href="#"
+            >
+            </a>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <a
+              class="group relative flex flex-col w-full min-h-80 bg-[url('https://cdn.guichet.com/events/yassar-nouveau-spectacle-lamhiyeb-a-rabat-1.png?w=450&h=450&fit=crop&crop=entropy&auto=format,compress&q=80')] bg-center bg-cover"
+              href="#"
+            >
+            </a>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <a
+              class="group relative flex flex-col w-full min-h-80 bg-[url('https://cdn.guichet.com/events/ninho-en-concert-exclusif-a-casablanca-2.jpeg?w=450&h=450&fit=crop&crop=entropy&auto=format,compress&q=80')] bg-center bg-cover"
+              href="#"
+            >
+            </a>
+            <!-- End Card -->
+
+            <!-- Card -->
+            <a
+              class="group relative flex flex-col w-full min-h-80 bg-[url('https://cdn.guichet.com/events/ali-madidi-a-casablanca.png?w=450&h=450&fit=crop&crop=entropy&auto=format,compress&q=80')] bg-center bg-cover"
+              href="#"
+            >
+            </a>
+            <!-- End Card -->
+          </div>
+          <!-- End Grid -->
+        </div>
+        <!-- End Card Blog -->
+      </div>
+      <img alt="border" src="./assets/border.png">
+    </main> 
     <footer></footer>
   </body>
 </html>
